@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+}
+.cv-qabi {
+    width: 800px;
+    display: flex;
+    background: #fff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+.yan-panel {
+    width: 35%;
+    background: #006400;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.yan-panel img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover;
+    border: 3px solid white;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.3);
+}
+.yan-panel h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.yan-panel p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+.dillər h3 {
+    margin-top: 20px;
+    font-size: 16px;
+}
+.dillər ul {
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.dillər ul li {
+    margin-bottom: 5px;
+}
+.məzmun {
+    width: 65%;
+    padding: 20px;
+}
+.məzmun h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #27ae60;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+.məzmun p {
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: justify;
+}
+.məzmun ul {
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+}
+.məzmun ul li {
+    margin-bottom: 10px;
+}
+.cv-qabi:hover {
+    transform: scale(1.01);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
